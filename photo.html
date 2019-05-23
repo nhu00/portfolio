@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NT | Photography</title>
+<link href="css/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+<!--header-->
+<header> 
+  <!-- Nav -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top"> 
+	  <img id="logo" src="images/logo.png" alt="nhu thai portfolio logo"> 
+	  <a class="navbar-brand" href="index.html">Nhu Thai's Portfolio </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto navlist navbar-right">
+        <li class="nav-item "> <a href="index.html"> Home</a> </li>
+        <li class="nav-item"> <a href="about.html">About Me</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-item dropdown-toggle active" href="info.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Works </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item active" href="photo.html">Photography</a> <a class="dropdown-item" href="design.html">Graphic Design</a> <a class="dropdown-item" href="video.html">Video</a> <a class="dropdown-item" href="website.html">Website Design</a> </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /Nav --> 
+</header>
+<!--/header-->
+
+<main style="padding: 70px 0 20px 0;">
+  <h1 style="font-family: 'Good Unicorn'; font-size: 5.5rem;">Photography</h1>
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('landscape')"> Landscape</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+<!--landscape horziontal-->
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/deer.jpg" alt="" style="width:100%">
+			<h4>Deer, Phoneix Park</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/firework.JPG" alt="" style="width:100%">
+			<h4>Sparklers</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/flower2.JPG" alt="" style="width:100%">
+			<h4>Nature</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/leave2.jpg" alt="" style="width:100%">
+			<h4>Nature</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/madrid.JPG" alt="" style="width:100%">
+			<h4>Madrid, Spain</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/nature.JPG" alt="" style="width:100%">
+			<h4>Cliffs of Moher, Co. Clare</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/nature2.JPG" alt="" style="width:100%">
+			<h4>Cliffs of Moher, Co. Clare</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/paris.JPG" alt="" style="width:100%">
+			<h4>Paris, France</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/plane2.JPG" alt="" style="width:100%">
+			<h4>Up in the sky</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/pumpkin.JPG" alt="" style="width:100%">
+			<h4>Pumpkin</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/snow.JPG" alt="" style="width:100%">
+			<h4>Snow</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/sunset2.JPG" alt="" style="width:100%">
+			<h4>Malaga, Spain</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/venice4.JPG" alt="" style="width:100%">
+			<h4>Venice, Italy</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content scale">
+			<img src="images/wall.JPG" alt="" style="width:100%">
+			<h4>St Patrick's Park, Dublin</h4>
+		</div>
+	</div>
+	
+<!--people horziontal-->
+	<div class="column people">
+		<div class="content scale">
+			<img src="images/halloween.JPG" alt="halloween" style="width:100%">
+			<h4>Halloween</h4>
+		</div>
+	</div>
+	<div class="column people">
+		<div class="content scale">
+    		<img src="images/halloween2.JPG" alt="halloween" style="width:100%">
+			<h4>Halloween</h4>
+   		</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/halloween3.JPG" alt="halloween" style="width:100%">
+			<h4>Halloween</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/linh2.jpg" alt="linh" style="width:100%">
+			<h4>Linh Le Thi</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/linh3.jpg" alt="linh" style="width:100%">
+			<h4>Linh Le Thi</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/marcin.jpg" alt="Marcin" style="width:100%">
+			<h4>Marcin Grabicki</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/parents.jpg" alt="Parents" style="width:100%">
+			<h4>My Parents</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/vinicia.JPG" alt="Vinicia" style="width:100%">
+			<h4>Vinicia Irigo</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/vinicia4.JPG" alt="Vinicia" style="width:100%">
+			<h4>Vinicia Irigo</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content scale">
+    		<img src="images/carlos.JPG" alt="Carlos" style="width:100%">
+			<h4>Carlos Cleto</h4>
+    	</div>
+  	</div>
+	
+<!--people portrait-->
+	<div class="column people">
+    	<div class="content">
+    		<img src="images/halloween4.JPG" alt="halloween" style="width:100%">
+			<h4>Halloween</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content">
+    		<img src="images/marcin2.jpg" alt="Marcin" style="width:100%">
+			<h4>Marcin Grabicki</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content">
+    		<img src="images/tet.JPG" alt="Tet" style="width:100%">
+			<h4>Vietnamese New Year</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content">
+    		<img src="images/vinicia6.JPG" alt="Vinicia" style="width:100%">
+			<h4>Vinicia Irigo</h4>
+    	</div>
+  	</div>
+	<div class="column people">
+    	<div class="content">
+    		<img src="images/vinicia7.JPG" alt="Vinicia" style="width:100%">
+			<h4>Vinicia Irigo</h4>
+    	</div>
+  	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/perfume.jpg" alt="perfume" style="width:100%">
+			<h4>Dior Addict Ad Poster</h4>
+		</div>
+	</div>
+	
+<!--landscape portrait-->
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/christmas2.JPG" alt="christmas" style="width:100%">
+			<h4>Christmas</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/christmas3.JPG" alt="christmas" style="width:100%">
+			<h4>Christmas</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/disney.JPG" alt="disney" style="width:100%">
+			<h4>DisneyLand Paris, France</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/disney2.JPG" alt="disney" style="width:100%">
+			<h4>DisneyLand Paris, France</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/sunset3.JPG" alt="sunset" style="width:100%">
+			<h4>Malaga, Spain</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/plane.JPG" alt="plane" style="width:100%">
+			<h4>Up in the sky</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/sunset.JPG" alt="" style="width:100%">
+			<h4>Sunset Lens ball</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/venice2.JPG" alt="venice" style="width:100%">
+			<h4>Venice, Italy</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/venice3.JPG" alt="venice" style="width:100%">
+			<h4>Venice, Italy</h4>
+		</div>
+	</div>
+	<div class="column landscape">
+		<div class="content">
+			<img src="images/leave3.jpg" alt="leave" style="width:100%">
+			<h4>Nature</h4>
+		</div>
+	</div>
+<!-- END GRID -->
+</div>
+</main>
+	
+<footer>
+  <div class="row">
+    <div class="footer">
+      <h5><b>Contact</b></h5>
+      Email: <u><a href="mailto:nhu-thai@hotmail.com">Nhu-thai@hotmail.com</a></u><br>
+      <br>
+      Student Email: <u><a href="mailto:b00103251@student.itb.ie">B00103251@student.itb.ie</a></u> </div>
+    <div class="footer">
+      <h5><b>Social Media</b></h5>
+      <a href="https://www.facebook.com/Nhu00" style="text-decoration: none;">Facebook</a> | Instagram: <br>
+      Main account: <u><a href="https://www.instagram.com/nhu_thai/">@nhu_thai</a></u><br>
+      Photography account: <u><a href="https://www.instagram.com/capturedbynhu/">@capturedbynhu</a></u> </div>
+    <div class="footer">
+      <h5><b>Sitemap</b></h5>
+      <a href="index.html">Home</a> | <a href="about.html">About Me</a> | <a href="photo.html">Photography</a> | <br>
+      <br>
+      <a href="design.html">Graphic Design</a> | <a href="video.html">Video</a> | <a href="website.html">Website Design</a> </div>
+  </div>
+  <hr>Thanks for visiting my Portfolio and I hope you enjoy my works. <br><br> &copy; Copyright 2019, Nhu Thai<br>
+</footer>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.2.1.js"></script>
+</body>
+</html>
